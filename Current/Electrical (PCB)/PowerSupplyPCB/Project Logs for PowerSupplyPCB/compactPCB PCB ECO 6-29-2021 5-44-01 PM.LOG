@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R1 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R2 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R5 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R6 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Library : Designator=R1 Old Library=benchtopschlib.SchLib New Library=EBoxschematiclib.SchLib
+Change Component Library : Designator=R2 Old Library=benchtopschlib.SchLib New Library=EBoxschematiclib.SchLib
+Change Component Library : Designator=R5 Old Library=benchtopschlib.SchLib New Library=EBoxschematiclib.SchLib
+Change Component Library : Designator=R6 Old Library=benchtopschlib.SchLib New Library=EBoxschematiclib.SchLib
+Added Room: Name=U_EBoxschematic

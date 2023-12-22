@@ -1,0 +1,454 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8/17/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:22:28 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc" class="file"><acronym title="C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc">C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">26</td></tr>
+</table>
+</td>
+</table><a name="ID1EALUVDZ1J5PPKDYZ2ZDLSXSRMVWDPOJCQ0VMWM0SPJWW5S2H1VE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE3HOPX15Z3EJEJ1GP5K0GLAG0PDX2SNXPDLG5NPUIATHW4IKPQ0P">Clearance Constraint (Gap=267.716mil) (InNet('HVSIG1')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWLDSE1GOBUEUJUZZOBEJSSX4VJ153JQU4O5USRJAJMKGHFOIEI4H">Clearance Constraint (Gap=267.716mil) (InNet('HVSIG3')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0PTNAGNDRJSYL4G5JUHQKEZKYKYRS34L5XFAT4ICYLSVCMBXENMO">Clearance Constraint (Gap=267.716mil) (InNet('HVSIG4')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4F0ZNAZBYJQCLKENKGUIJGCS3N4RZT404URHAABKLVCKUOIFWSMM">Clearance Constraint (Gap=267.716mil) (InNet('HVSIG2')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRTHQB434QFC3DZELPK4R3EGYXCSXHQG0Z2LN2ONK01OLZ3OHEARD">Clearance Constraint (Gap=267.716mil) (InNet('3kV')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG0BSBNLIYVN1DWKEIQINQIN25GCZ3TMYRB42WNL44AOCUCFUK4EJ">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTPFX4AD5HXQ2HJZIQARV1CF4YNOS4R12NXNH4EAL4OKEWHT5YSL">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCEOX0GABIISCLRGZG4QRIJR2OKCHEWDI5QS1EQO2DLHQDLAQE5IP">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXI0WKNSWHMNH1ZUZDRUPZKZ1IYI40QHIL5NMRE02CPMNGBJZGWI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDE2EU3XHDBTGYDXVTJZAGSBG4CHX420MNRXKMCXNBWUILSEDYSBHC">Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID21K4F0JB0NN1F1SOLLERP2YBWOJAXDIYM5AAI5L2AGZHORU2N0N">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJDXFTSB5PQDZBOSDR02RA4SLLBREOBSWTINEAEMJOL2OMWZENZYP">Hole Size Constraint (Min=1mil) (Max=100mil) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHJBNFPTXG4VCCGALXTMYRHOTKNCNJO1NJ4O55RPA3JEHZH22G5AP">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBS5BT1KIHG3JZR3HIQDDBH0BCVI11SDMIS5W3CAP2J20UID405I">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID54LHHQI1ZM2QBMSCZEZHMBQNRI5Z2VZBTMGRXGN03PYRVQZKTAAP">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">23</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTQI55M24X4Y0LGKWDMZSVLDLGCNQK3RAYN0YU5EMTFYS25DP2AGF">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1LK2ULO1BXIGCTVS3TBX2THTGNUP1VUIP0IJYVJYTDWOM51NBEHC">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDB5PPE15UTVYAI3RLZZZ5TFP4BM0PUAR4PCSVFQJAB1DWCDQAMM4">Room U3_power (Bounding Region = (6455mil, 7660mil, 9936mil, 9271mil) (InComponentClass('U3_power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRU2BVQWGA3ZGNPLQAUWWOPGRIGEAMMAJM4VKKVHENJIDT1LKYRBP">Room top_pls (Bounding Region = (2290mil, 1655mil, 10265mil, 9605mil) (InComponentClass('top_pls'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJCBWDHNORY4BFWCBVPQCEJASXDX04OFN40CBSWDLS0Q1RND4YYJJ">Room U4_power (Bounding Region = (6455mil, 2120mil, 9947mil, 3500mil) (InComponentClass('U4_power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5GSECD20DVAQJPH5CK2UAAEJKKGOEB5FUL1M03CINO3BH4OONXOF">Room U2_power (Bounding Region = (2765mil, 2120mil, 6105mil, 3500mil) (InComponentClass('U2_power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBRRNSXPOOOMVPVKWA2TF5LHPIJC34KUGO5JMHFNZZVT0MGFSQIQK">Room U1_power (Bounding Region = (2795mil, 7770mil, 6105mil, 9150mil) (InComponentClass('U1_power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXDZ1CPEVX1NVA1S3C1ZKEO32GLF2RCPSCRA3TOEHRRR2NC0JVTL">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">26</td>
+</tr>
+</table><br><a name="IDBS5BT1KIHG3JZR3HIQDDBH0BCVI11SDMIS5W3CAP2J20UID405I"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6239.375mil|Location2.X=6250.625mil|Location1.Y=3858.564mil|Location2.Y=3869.814mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6239.375mil|Location2.X=6250.625mil|Location1.Y=3858.564mil|Location2.Y=3869.814mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (8.142mil &lt; 10mil) Between Pad R4-1(3947.087mil,2245mil) on LV And Pad R4-2(3982.913mil,2245mil) on LV [Top Solder] Mask Sliver [8.142mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID54LHHQI1ZM2QBMSCZEZHMBQNRI5Z2VZBTMGRXGN03PYRVQZKTAAP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3033.686mil|Location2.X=3041.353mil|Location1.Y=2965.841mil|Location2.Y=2973.508mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3033.686mil|Location2.X=3041.353mil|Location1.Y=2965.841mil|Location2.Y=2973.508mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Pad C1_2-1(780.354mil,1360mil) on LV And Text "P6_2" (671.69mil,1341.339mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3099.435mil|Location2.X=3110.685mil|Location1.Y=2970.714mil|Location2.Y=2981.964mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3099.435mil|Location2.X=3110.685mil|Location1.Y=2970.714mil|Location2.Y=2981.964mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.501mil &lt; 10mil) Between Pad C1_2-2(849.646mil,1360mil) on LV And Text "P6_2" (671.69mil,1341.339mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.501mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.506mil|Location2.X=2997.172mil|Location1.Y=2937.496mil|Location2.Y=2945.162mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2989.506mil|Location2.X=2997.172mil|Location1.Y=2937.496mil|Location2.Y=2945.162mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Pad C2_2-1(728.85mil,1273mil) on LV And Text "10V" (680.016mil,1273.006mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4344.616mil|Location2.X=4355.866mil|Location1.Y=7332.375mil|Location2.Y=7343.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4344.616mil|Location2.X=4355.866mil|Location1.Y=7332.375mil|Location2.Y=7343.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P2-1(2114mil,5703mil) on Multi-Layer And Track (2064mil,5653mil)(2064mil,5753mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4388.375mil|Location2.X=4399.625mil|Location1.Y=7288.616mil|Location2.Y=7299.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4388.375mil|Location2.X=4399.625mil|Location1.Y=7288.616mil|Location2.Y=7299.866mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P2-1(2114mil,5703mil) on Multi-Layer And Track (2064mil,5653mil)(2164mil,5653mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4388.375mil|Location2.X=4399.625mil|Location1.Y=7376.134mil|Location2.Y=7387.384mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4388.375mil|Location2.X=4399.625mil|Location1.Y=7376.134mil|Location2.Y=7387.384mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P2-1(2114mil,5703mil) on Multi-Layer And Track (2064mil,5753mil)(2164mil,5753mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4432.134mil|Location2.X=4443.384mil|Location1.Y=7332.375mil|Location2.Y=7343.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4432.134mil|Location2.X=4443.384mil|Location1.Y=7332.375mil|Location2.Y=7343.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P2-1(2114mil,5703mil) on Multi-Layer And Track (2164mil,5653mil)(2164mil,5753mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4270.616mil|Location2.X=4281.866mil|Location1.Y=3944.375mil|Location2.Y=3955.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4270.616mil|Location2.X=4281.866mil|Location1.Y=3944.375mil|Location2.Y=3955.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P3-1(2040mil,2315mil) on Multi-Layer And Track (1990mil,2265mil)(1990mil,2365mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4314.375mil|Location2.X=4325.625mil|Location1.Y=3900.616mil|Location2.Y=3911.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4314.375mil|Location2.X=4325.625mil|Location1.Y=3900.616mil|Location2.Y=3911.866mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P3-1(2040mil,2315mil) on Multi-Layer And Track (1990mil,2265mil)(2090mil,2265mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4314.375mil|Location2.X=4325.625mil|Location1.Y=3988.134mil|Location2.Y=3999.384mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4314.375mil|Location2.X=4325.625mil|Location1.Y=3988.134mil|Location2.Y=3999.384mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P3-1(2040mil,2315mil) on Multi-Layer And Track (1990mil,2365mil)(2090mil,2365mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.134mil|Location2.X=4369.384mil|Location1.Y=3944.375mil|Location2.Y=3955.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.134mil|Location2.X=4369.384mil|Location1.Y=3944.375mil|Location2.Y=3955.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P3-1(2040mil,2315mil) on Multi-Layer And Track (2090mil,2265mil)(2090mil,2365mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7944.616mil|Location2.X=7955.866mil|Location1.Y=7315.375mil|Location2.Y=7326.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7944.616mil|Location2.X=7955.866mil|Location1.Y=7315.375mil|Location2.Y=7326.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P4-1(5714mil,5686mil) on Multi-Layer And Track (5664mil,5636mil)(5664mil,5736mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7988.375mil|Location2.X=7999.625mil|Location1.Y=7271.616mil|Location2.Y=7282.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7988.375mil|Location2.X=7999.625mil|Location1.Y=7271.616mil|Location2.Y=7282.866mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P4-1(5714mil,5686mil) on Multi-Layer And Track (5664mil,5636mil)(5764mil,5636mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7988.375mil|Location2.X=7999.625mil|Location1.Y=7359.134mil|Location2.Y=7370.384mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7988.375mil|Location2.X=7999.625mil|Location1.Y=7359.134mil|Location2.Y=7370.384mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P4-1(5714mil,5686mil) on Multi-Layer And Track (5664mil,5736mil)(5764mil,5736mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8032.134mil|Location2.X=8043.384mil|Location1.Y=7315.375mil|Location2.Y=7326.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8032.134mil|Location2.X=8043.384mil|Location1.Y=7315.375mil|Location2.Y=7326.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P4-1(5714mil,5686mil) on Multi-Layer And Track (5764mil,5636mil)(5764mil,5736mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8170.616mil|Location2.X=8181.866mil|Location1.Y=3954.375mil|Location2.Y=3965.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8170.616mil|Location2.X=8181.866mil|Location1.Y=3954.375mil|Location2.Y=3965.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P5-1(5940mil,2325mil) on Multi-Layer And Track (5890mil,2275mil)(5890mil,2375mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8214.375mil|Location2.X=8225.625mil|Location1.Y=3910.616mil|Location2.Y=3921.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8214.375mil|Location2.X=8225.625mil|Location1.Y=3910.616mil|Location2.Y=3921.866mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P5-1(5940mil,2325mil) on Multi-Layer And Track (5890mil,2275mil)(5990mil,2275mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8214.375mil|Location2.X=8225.625mil|Location1.Y=3998.134mil|Location2.Y=4009.384mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8214.375mil|Location2.X=8225.625mil|Location1.Y=3998.134mil|Location2.Y=4009.384mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P5-1(5940mil,2325mil) on Multi-Layer And Track (5890mil,2375mil)(5990mil,2375mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8258.134mil|Location2.X=8269.384mil|Location1.Y=3954.375mil|Location2.Y=3965.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8258.134mil|Location2.X=8269.384mil|Location1.Y=3954.375mil|Location2.Y=3965.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.482mil &lt; 10mil) Between Pad P5-1(5940mil,2325mil) on Multi-Layer And Track (5990mil,2275mil)(5990mil,2375mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.482mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6233.105mil|Location2.X=6244.355mil|Location1.Y=3864.532mil|Location2.Y=3875.782mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6233.105mil|Location2.X=6244.355mil|Location1.Y=3864.532mil|Location2.Y=3875.782mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.602mil &lt; 10mil) Between Pad R4-1(3947.087mil,2245mil) on LV And Track (3963.032mil,2235.157mil)(3966.968mil,2235.157mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.602mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6233.105mil|Location2.X=6244.355mil|Location1.Y=3884.218mil|Location2.Y=3895.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6233.105mil|Location2.X=6244.355mil|Location1.Y=3884.218mil|Location2.Y=3895.468mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.602mil &lt; 10mil) Between Pad R4-1(3947.087mil,2245mil) on LV And Track (3963.032mil,2254.843mil)(3966.968mil,2254.843mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.602mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6245.645mil|Location2.X=6256.895mil|Location1.Y=3864.532mil|Location2.Y=3875.782mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6245.645mil|Location2.X=6256.895mil|Location1.Y=3864.532mil|Location2.Y=3875.782mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.602mil &lt; 10mil) Between Pad R4-2(3982.913mil,2245mil) on LV And Track (3963.032mil,2235.157mil)(3966.968mil,2235.157mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.602mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6245.645mil|Location2.X=6256.895mil|Location1.Y=3884.218mil|Location2.Y=3895.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6245.645mil|Location2.X=6256.895mil|Location1.Y=3884.218mil|Location2.Y=3895.468mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.602mil &lt; 10mil) Between Pad R4-2(3982.913mil,2245mil) on LV And Track (3963.032mil,2254.843mil)(3966.968mil,2254.843mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.602mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTQI55M24X4Y0LGKWDMZSVLDLGCNQK3RAYN0YU5EMTFYS25DP2AGF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3033.968mil|Location2.X=3041.634mil|Location1.Y=2940.663mil|Location2.Y=2948.329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3033.968mil|Location2.X=3041.634mil|Location1.Y=2940.663mil|Location2.Y=2948.329mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "10V" (680.016mil,1273.006mil) on Top Overlay And Track (757.801mil,1309.496mil)(820.199mil,1309.496mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4091.694mil|Location2.X=4102.944mil|Location1.Y=8846.209mil|Location2.Y=8857.459mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5_LFG\board_pls.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4091.694mil|Location2.X=4102.944mil|Location1.Y=8846.209mil|Location2.Y=8857.459mil|Absolute=True">Silk To Silk Clearance Constraint: (9.681mil &lt; 10mil) Between Text "P8_1" (1726.355mil,7233.339mil) on Top Overlay And Text "SIG" (1724.016mil,7167.007mil) on Top Overlay Silk Text to Silk Clearance [9.681mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

@@ -1,0 +1,45 @@
+Added Component: Designator=C1(HV Capacitor)
+Added Component: Designator=Q1(MOSFET)
+Added Component: Designator=Q2(MOSFET)
+Added Component: Designator=Q3(MOSFET)
+Added Component: Designator=Q4(MOSFET)
+Added Component: Designator=R1(HV resistor)
+Added Component: Designator=R2(HV resistor)
+Added Component: Designator=R3(HV resistor)
+Added Component: Designator=R4(HV resistor)
+Added Component: Designator=R5(HV resistor)
+Added Component: Designator=R6(HV resistor)
+Added Component: Designator=R7(HV resistor)
+Added Component: Designator=R8(HV resistor)
+Added Component: Designator=U1(Gate Driver)
+Added Component: Designator=U2(Gate Driver)
+Added Component: Designator=U3(Gate Driver)
+Added Component: Designator=U4(Gate Driver)
+Added Component: Designator=U5(Step Up Converter)
+Added Pin To Net: NetName=3kV Pin=C1-2
+Added Pin To Net: NetName=3kV Pin=R3-1
+Added Pin To Net: NetName=3kV Pin=R4-1
+Added Pin To Net: NetName=3kV Pin=R7-1
+Added Pin To Net: NetName=3kV Pin=R8-1
+Added Net: Name=3kV
+Added Net: Name=5V
+Added Net: Name=28V
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Net: Name=GND
+Added Net: Name=LED
+Added Net: Name=NetC2_2
+Added Net: Name=NetD1_K
+Added Net: Name=NetD2_K
+Added Net: Name=NetD3_K
+Added Net: Name=NetD4_A
+Added Net: Name=OFF
+Added Net: Name=ON
+Added Net: Name=PWR
+Added Class: Name=benchtopsch
+Added Class: Name=U_EBoxschematic
+Added Room: Name=benchtopsch
+Added Room: Name=U_EBoxschematic

@@ -1,0 +1,28 @@
+Solver 0.000 Linear-static-solver-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.000 Loading-and-preparing-input-data-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.359 Loading-and-preparing-input-data-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.359 Computing-load-vector-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.469 Computing-load-vector-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.635 Computing-element-stiffness-matrix-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.635 Computing-element-stiffness-matrix-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 158.327 Computing-reaction-forces-for-load-case(LCASE)=1-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 158.530 Computing-reaction-forces-for-load-case(LCASE)=1-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 158.530 Computing-stresses-for-load-case=1-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 158.561 Computing-stresses-for-load-case=1-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 158.627 Linear-static-solver-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+SOLVER TYPE= FFEPlus (PCG Iterative Solver)
+Number of Equations (NEQ)=39459
+Number of Nodal points (NUMNP)=13450
+Number of Pseudo nodes (NUMPS)=0
+Number of Elements (NUME)=7664
+Number of Pseudo Elements (NUMP)=5424
+Total Number of Potential Contact Elements=125
+SOLUTION TIME LOG
+Time for Input Data Transfer from Database =0.735000
+TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX (STF_PHASE)=2.373000
+TIME FOR FFEPlus (PCG ITERATIVE SOLVER) =154.785995
+TIME FOR GAP & CONTACT ITERATIONS (CNT_PHASE)=0.408000
+TIME FOR REACTION FORCE & DISP UPDATE TO POST (REC_PAHS)=0.328000
+TIME FOR STRESS CALCULATION (STS_PHASE)=0.031000
+TIME FOR WRITING POST PROCESSING INFORMATION (PST_PHASE)=0.016000
+TOTAL SOLUTION TIME (TOT_TIME)=158.677002

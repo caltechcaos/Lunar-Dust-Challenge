@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=R2 Old Footprint=HV resistor New Footprint=LV Resistor
+Change Component Footprint: Designator=R4 Old Footprint=HV resistor New Footprint=LV Resistor
+Change Component Footprint: Designator=R7 Old Footprint=HV resistor New Footprint=LV Resistor
+Change Component Footprint: Designator=R8 Old Footprint=HV resistor New Footprint=LV Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component D6 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D7 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D8 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D9 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component R1 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R2 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R3 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R4 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R5 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R6 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R7 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R8 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R13 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R14 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R15 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R16 1.25M

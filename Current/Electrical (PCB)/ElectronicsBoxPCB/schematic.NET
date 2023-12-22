@@ -1,0 +1,52 @@
+PARTS LIST
+
+Push Button                       B1
+Push Button                       B2
+Capacitor                         C1
+Capacitor                         C2
+LED                               D1
+LED                               D2
+LED                               D3
+LED                               D4
+LED                               D5
+1x10 female header                P1
+KK 254 1x3 male header                P2
+Resistor                          R1
+Resistor                          R2
+Resistor                          R3
+SPST Switch                       SW1
+Step-Down Converter                U1
+EOS
+NET LIST
+
+NODENAME 5V               $
+    C2         2  D5         A
+NODENAME 28V              $
+    P2         1  SW1        1
+NODENAME GND              $
+    C1         1  C2         1  D5         K  R1         2  R2         1
+NODENAME LED              $
+    D1         A
+NODENAME NetC1-2          $
+    C1         2  D2         K
+NODENAME NetD1_K          $
+    D1         K  R2         2
+NODENAME NetD2_A          $
+    D2         A  P2         2  R1         1  SW1        2
+NODENAME NetD3_A          $
+    D3         A  D4         A  R3         1
+NODENAME OFF              $
+    D4         K
+NODENAME ON               $
+    D3         K
+NODENAME PWR              $
+    R3         2
+NODENAME SIG1             $
+  
+NODENAME SIG2             $
+  
+NODENAME SIG3             $
+  
+NODENAME SIG4             $
+  
+EOS

@@ -1,0 +1,2 @@
+﻿"panel_width"= 114mm
+"finger_joint_width" = 25mm

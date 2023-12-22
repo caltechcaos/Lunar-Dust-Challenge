@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: compactPCB.GBR   7/9/2021  12:32:12 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                LV                                      
+.G1                 Power Loops                             
+.G2                 HV Power                                
+.GBL                HV Signal                               
+.GBS                Bottom Solder                           
+.GM1                Mechanical 1                            
+.GM3                Connector 2                             
+.GM4                Connector 3                             
+.GM5                Mechanical 5                            
+.GM8                Connector 5                             
+.GM10               Mechanical 10                           
+.GM11               Connector 7                             
+.GM12               Mechanical 12                           
+.GM13               Mechanical 13                           
+.GM14               Connector 8                             
+.GM15               Mechanical 15                           
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------

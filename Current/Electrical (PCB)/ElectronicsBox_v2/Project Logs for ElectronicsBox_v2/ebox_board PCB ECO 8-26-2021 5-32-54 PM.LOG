@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C3 Old Footprint=0.1UF New Footprint=0.1uF Cer SMD
+Change Component Footprint: Designator=C6 Old Footprint=10UF CERAMIC New Footprint=10uF Cer SMD
+Change Component Footprint: Designator=C7 Old Footprint=10UF CERAMIC New Footprint=10uF Cer SMD
+Change Component Comment : Designator=P5 Old Comment=ARDUINO New Comment=ARDUINO_PWR_SW
+Change Component Comment : Designator=P3 Old Comment=EDS New Comment=EDS_PWR_SW

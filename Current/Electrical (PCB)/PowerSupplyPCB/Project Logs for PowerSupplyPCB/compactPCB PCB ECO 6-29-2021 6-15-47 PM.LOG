@@ -1,0 +1,16 @@
+Added Component: Designator=R3(HV resistor)
+Added Component: Designator=R4(HV resistor)
+Added Component: Designator=R7(HV resistor)
+Added Component: Designator=R8(HV resistor)
+Added Pin To Net: NetName=3kV Pin=R3-1
+Added Pin To Net: NetName=NetHVSIG1_1 Pin=R3-2
+Added Pin To Net: NetName=3kV Pin=R4-1
+Added Pin To Net: NetName=NetHVSIG2_1 Pin=R4-2
+Added Pin To Net: NetName=3kV Pin=R7-1
+Added Pin To Net: NetName=NetHVSIG3_1 Pin=R7-2
+Added Pin To Net: NetName=3kV Pin=R8-1
+Added Pin To Net: NetName=NetHVSIG4_1 Pin=R8-2
+Added Member To Class: ClassName=benchtopsch Member=Component R3 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R4 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R7 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R8 1.25M

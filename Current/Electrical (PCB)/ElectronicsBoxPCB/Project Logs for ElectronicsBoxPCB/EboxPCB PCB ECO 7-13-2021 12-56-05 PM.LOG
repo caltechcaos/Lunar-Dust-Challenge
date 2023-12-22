@@ -1,0 +1,208 @@
+Added Component: Designator=C1(0.1uF)
+Added Component: Designator=C2(100uF Tantalum)
+Added Component: Designator=C3(1uF)
+Added Component: Designator=C4(1uF)
+Added Component: Designator=C5(100uF Tantalum)
+Added Component: Designator=C6(10uF)
+Added Component: Designator=C7(10uF)
+Added Component: Designator=D1(LED 12V Thru Hole)
+Added Component: Designator=D2(LED 5V Arduino Thru Hole)
+Added Component: Designator=D3(Protective Diode)
+Added Component: Designator=D4(LED 5V Arduino Thru Hole)
+Added Component: Designator=D5(Protective Diode)
+Added Component: Designator=D6(Schottky Diode)
+Added Component: Designator=D7(LED 5V Arduino Thru Hole)
+Added Component: Designator=D8(LED 5V Thru Hole)
+Added Component: Designator=P1(3x1 KK Molex)
+Added Component: Designator=P2(1x10 header pin)
+Added Component: Designator=P3(Via)
+Added Component: Designator=P4(Via)
+Added Component: Designator=P5(Via)
+Added Component: Designator=P6(Via)
+Added Component: Designator=P7(Via)
+Added Component: Designator=P8(Via)
+Added Component: Designator=P9(Via)
+Added Component: Designator=P10(Via)
+Added Component: Designator=P11(Via)
+Added Component: Designator=P12(Via)
+Added Component: Designator=P13(Via)
+Added Component: Designator=P14(Via)
+Added Component: Designator=P15(Via)
+Added Component: Designator=P16(Via)
+Added Component: Designator=P17(Via)
+Added Component: Designator=P18(Via)
+Added Component: Designator=P19(3x1 KK Molex)
+Added Component: Designator=P20(3x1 KK Molex)
+Added Component: Designator=P21(Test Point)
+Added Component: Designator=P22(Test Point)
+Added Component: Designator=P23(Test Point)
+Added Component: Designator=P24(Test Point)
+Added Component: Designator=P25(Test Point)
+Added Component: Designator=P26(Test Point)
+Added Component: Designator=P28(Test Point)
+Added Component: Designator=R1(LV Resistor)
+Added Component: Designator=R2(1.5 Ohm)
+Added Component: Designator=R3(2.87k Ohm)
+Added Component: Designator=R4(249 Ohm)
+Added Component: Designator=R5(340 Ohm)
+Added Component: Designator=R6(Arduino Resistors)
+Added Component: Designator=R7(Arduino Resistors)
+Added Component: Designator=R8(2.67k Ohm)
+Added Component: Designator=R9(2.49k Ohm)
+Added Component: Designator=R10(Arduino Resistors)
+Added Component: Designator=R11(2.32k Ohm)
+Added Component: Designator=R12(2.1k Ohm)
+Added Component: Designator=R13(1.91k Ohm)
+Added Component: Designator=R14(1.69k Ohm)
+Added Component: Designator=R15(1.5k Ohm)
+Added Component: Designator=R16(Rotary Switch)
+Added Component: Designator=R17(Arduino Resistors)
+Added Component: Designator=U1(Linear Regulator)
+Added Component: Designator=U2(Step Down Converter)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=NetC1_2 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetC1_2 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=10V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=28V Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=5V Pin=C7-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=GND Pin=D8-1
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=28V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=OFF Pin=P19-1
+Added Pin To Net: NetName=NetP19_2 Pin=P19-2
+Added Pin To Net: NetName=OFF Pin=P20-1
+Added Pin To Net: NetName=NetP20_2 Pin=P20-2
+Added Pin To Net: NetName=LED Pin=P21-1
+Added Pin To Net: NetName=OFF Pin=P22-1
+Added Pin To Net: NetName=OFF Pin=P23-1
+Added Pin To Net: NetName=28V Pin=P24-1
+Added Pin To Net: NetName=28V Pin=P25-1
+Added Pin To Net: NetName=5V Pin=P26-1
+Added Pin To Net: NetName=10V Pin=P28-1
+Added Pin To Net: NetName=28V Pin=R1-1
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Pin To Net: NetName=NetC1_2 Pin=R2-1
+Added Pin To Net: NetName=28V Pin=R2-2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=10V Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=10V Pin=R5-1
+Added Pin To Net: NetName=NetD8_2 Pin=R5-2
+Added Pin To Net: NetName=NetP19_2 Pin=R6-1
+Added Pin To Net: NetName=NetD4_2 Pin=R6-2
+Added Pin To Net: NetName=NetP20_2 Pin=R7-1
+Added Pin To Net: NetName=NetD7_2 Pin=R7-2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=NetD2_2 Pin=R10-1
+Added Pin To Net: NetName=LED Pin=R10-2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=GND Pin=R15-2
+Added Pin To Net: NetName=NetR15_1 Pin=R16-1
+Added Pin To Net: NetName=NetR14_1 Pin=R16-2
+Added Pin To Net: NetName=NetR13_1 Pin=R16-3
+Added Pin To Net: NetName=NetR12_1 Pin=R16-4
+Added Pin To Net: NetName=NetR11_1 Pin=R16-5
+Added Pin To Net: NetName=NetR9_1 Pin=R16-6
+Added Pin To Net: NetName=NetR8_1 Pin=R16-7
+Added Pin To Net: NetName=NetR3_1 Pin=R16-8
+Added Pin To Net: NetName=NetR16_A Pin=R16-A
+Added Pin To Net: NetName=5V Pin=R17-1
+Added Pin To Net: NetName=OFF Pin=R17-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-1
+Added Pin To Net: NetName=NetR16_A Pin=U1-2
+Added Pin To Net: NetName=10V Pin=U1-3
+Added Pin To Net: NetName=28V Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=5V Pin=U2-3
+Added Net: Name=PWR
+Added Member To Class: ClassName=EBoxschematic Member=Component C1 0.1u
+Added Member To Class: ClassName=EBoxschematic Member=Component C2 10u
+Added Member To Class: ClassName=EBoxschematic Member=Component C3 1u
+Added Member To Class: ClassName=EBoxschematic Member=Component C4 Capacitor
+Added Member To Class: ClassName=EBoxschematic Member=Component C5 100u
+Added Member To Class: ClassName=EBoxschematic Member=Component C6 10u
+Added Member To Class: ClassName=EBoxschematic Member=Component C7 10u
+Added Member To Class: ClassName=EBoxschematic Member=Component D1 LED
+Added Member To Class: ClassName=EBoxschematic Member=Component D2 LED
+Added Member To Class: ClassName=EBoxschematic Member=Component D3 Diode
+Added Member To Class: ClassName=EBoxschematic Member=Component D4 LED
+Added Member To Class: ClassName=EBoxschematic Member=Component D5 Diode
+Added Member To Class: ClassName=EBoxschematic Member=Component D6 Diode
+Added Member To Class: ClassName=EBoxschematic Member=Component D7 LED
+Added Member To Class: ClassName=EBoxschematic Member=Component D8 LED
+Added Member To Class: ClassName=EBoxschematic Member=Component P1 Switch
+Added Member To Class: ClassName=EBoxschematic Member=Component P2 1x10 female header
+Added Member To Class: ClassName=EBoxschematic Member=Component P3 28V
+Added Member To Class: ClassName=EBoxschematic Member=Component P4 GND
+Added Member To Class: ClassName=EBoxschematic Member=Component P5 SIG4
+Added Member To Class: ClassName=EBoxschematic Member=Component P6 SIG3
+Added Member To Class: ClassName=EBoxschematic Member=Component P7 5V
+Added Member To Class: ClassName=EBoxschematic Member=Component P8 10V
+Added Member To Class: ClassName=EBoxschematic Member=Component P9 SIG2
+Added Member To Class: ClassName=EBoxschematic Member=Component P10 SIG1
+Added Member To Class: ClassName=EBoxschematic Member=Component P11 SIG2
+Added Member To Class: ClassName=EBoxschematic Member=Component P12 SIG1
+Added Member To Class: ClassName=EBoxschematic Member=Component P13 5V
+Added Member To Class: ClassName=EBoxschematic Member=Component P14 10V
+Added Member To Class: ClassName=EBoxschematic Member=Component P15 SIG4
+Added Member To Class: ClassName=EBoxschematic Member=Component P16 SIG3
+Added Member To Class: ClassName=EBoxschematic Member=Component P17 28V
+Added Member To Class: ClassName=EBoxschematic Member=Component P18 GND
+Added Member To Class: ClassName=EBoxschematic Member=Component P19 Button
+Added Member To Class: ClassName=EBoxschematic Member=Component P20 Button
+Added Member To Class: ClassName=EBoxschematic Member=Component P21 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P22 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P23 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P24 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P25 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P26 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P28 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component R1 1.5k
+Added Member To Class: ClassName=EBoxschematic Member=Component R2 1.5
+Added Member To Class: ClassName=EBoxschematic Member=Component R3 2.87k
+Added Member To Class: ClassName=EBoxschematic Member=Component R4 249
+Added Member To Class: ClassName=EBoxschematic Member=Component R5 340
+Added Member To Class: ClassName=EBoxschematic Member=Component R6 220
+Added Member To Class: ClassName=EBoxschematic Member=Component R7 220
+Added Member To Class: ClassName=EBoxschematic Member=Component R8 2.67k
+Added Member To Class: ClassName=EBoxschematic Member=Component R9 2.49k
+Added Member To Class: ClassName=EBoxschematic Member=Component R10 220
+Added Member To Class: ClassName=EBoxschematic Member=Component R11 2.32k
+Added Member To Class: ClassName=EBoxschematic Member=Component R12 2.1k
+Added Member To Class: ClassName=EBoxschematic Member=Component R13 1.91k
+Added Member To Class: ClassName=EBoxschematic Member=Component R14 1.69k
+Added Member To Class: ClassName=EBoxschematic Member=Component R15 1.5k
+Added Member To Class: ClassName=EBoxschematic Member=Component R16 Rotary Potentiometer
+Added Member To Class: ClassName=EBoxschematic Member=Component R17 1M
+Added Member To Class: ClassName=EBoxschematic Member=Component U1 Linear Regulator
+Added Member To Class: ClassName=EBoxschematic Member=Component U2 Step Down Converter
+Added Room: Name=EBoxschematic

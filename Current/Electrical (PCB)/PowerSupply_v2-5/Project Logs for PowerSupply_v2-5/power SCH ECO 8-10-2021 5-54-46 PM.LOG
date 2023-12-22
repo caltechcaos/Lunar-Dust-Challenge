@@ -1,0 +1,12 @@
+Replace Part C1 Capacitor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Capacitor from benchtopschlib.SchLib
+Replace Part C2 Capacitor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Capacitor from benchtopschlib.SchLib
+Replace Part C3 Capacitor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Capacitor from benchtopschlib.SchLib
+Replace Part C4 Capacitor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Capacitor from benchtopschlib.SchLib
+Replace Part D1 Zener Diode in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Zener Diode from compact_v2-5.SchLib
+Update Managed Component P1 From CMP-002-00037-2[5003] To CMP-002-00037-2[5003] in power.SchDoc
+Update Managed Component P2 From CMP-002-00037-2[5003] To CMP-002-00037-2[5003] in power.SchDoc
+Update Managed Component P24 From CMP-002-00037-2[5003] To CMP-002-00037-2[5003] in power.SchDoc
+Replace Part Q1 MOSFET in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with MOSFET from benchtopschlib.SchLib
+Replace Part R1 Resistor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Resistor from compact_v2-5.SchLib
+Replace Part R2 Resistor in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Resistor from compact_v2-5.SchLib
+Replace Part U1 Gate Driver in C:\Users\harne\OneDrive - California Institute of Technology\GrabCAD\Lunar Dust Challenge\Current\Electrical (PCB)\PowerSupply_v2-5\power.SchDoc with Gate Driver from benchtopschlib.SchLib

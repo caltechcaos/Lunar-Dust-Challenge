@@ -1,0 +1,95 @@
+Added Component: Designator=D6(Zener Diode)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KDZVTR16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Added Component: Designator=D7(Zener Diode)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KDZVTR16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Added Component: Designator=D8(Zener Diode)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KDZVTR16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Added Component: Designator=D9(Zener Diode)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_Matt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "KDZVTR16B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "Rohm_2019-09-23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Added Component: Designator=R1(LV Resistor)
+Added Component: Designator=R2(HV resistor)
+Added Component: Designator=R3(HV resistor)
+Added Component: Designator=R4(HV resistor)
+Added Component: Designator=R5(LV Resistor)
+Added Component: Designator=R6(HV resistor)
+Added Component: Designator=R7(HV resistor)
+Added Component: Designator=R8(HV resistor)
+Added Component: Designator=R13(LV Resistor)
+Added Component: Designator=R14(LV Resistor)
+Added Component: Designator=R15(HV resistor)
+Added Component: Designator=R16(HV resistor)
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=GND Pin=D7-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=GND Pin=D9-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetD6_1 Pin=R1-2
+Added Pin To Net: NetName=NetD6_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=3kV Pin=R3-1
+Added Pin To Net: NetName=HVSIG1 Pin=R3-2
+Added Pin To Net: NetName=NetD7_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetD7_1 Pin=R5-2
+Added Pin To Net: NetName=3kV Pin=R6-1
+Added Pin To Net: NetName=HVSIG2 Pin=R6-2
+Added Pin To Net: NetName=NetD8_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Pin To Net: NetName=NetD9_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=NetD8_1 Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=NetD9_1 Pin=R14-2
+Added Pin To Net: NetName=3kV Pin=R15-1
+Added Pin To Net: NetName=HVSIG3 Pin=R15-2
+Added Pin To Net: NetName=3kV Pin=R16-1
+Added Pin To Net: NetName=HVSIG4 Pin=R16-2
+Change Net Name : Old Net Name=NetU1_1 New Net Name=5V
+Change Net Name : Old Net Name=NetU1_2 New Net Name=SIG1
+Change Net Name : Old Net Name=NetU1_6 New Net Name=20V
+Added Member To Class: ClassName=benchtopsch Member=Component D6 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D7 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D8 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D9 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component R1 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R2 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R3 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R4 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R5 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R6 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R7 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R8 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R13 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R14 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R15 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R16 1.25M

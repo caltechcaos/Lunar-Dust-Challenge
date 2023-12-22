@@ -1,0 +1,3 @@
+All these panel combinations are unidirectional, so if you need to change direction you have to use multiple combinations.
+
+1x1 panels and port covers are found in the EASE folder.

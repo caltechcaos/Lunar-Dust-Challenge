@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SIG3 Pin=P14_1-VIA
+Removed Pin From Net: NetName=20V Pin=P20_1-VIA
+Removed Pin From Net: NetName=GND Pin=P58_1-VIA
+Removed Pin From Net: NetName=20V Pin=P68_1-VIA
+Removed Pin From Net: NetName=5V Pin=P69_1-VIA
+Change Net Name : Old Net Name=20V New Net Name=10V

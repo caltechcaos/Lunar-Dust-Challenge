@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=D4-2
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Pin From Net: NetName=GND Pin=D8-2
+Change Component Description : Designator=P3 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P4 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P5 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P6 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P7 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P8 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P9 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P10 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P11 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P12 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P13 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P14 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P15 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P16 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P17 Old Description=Thru hole via New Description=
+Change Component Description : Designator=P18 Old Description=Thru hole via New Description=
+Added Component: Designator=P21(Test Point)
+Added Component: Designator=P22(Test Point)
+Added Component: Designator=P23(Test Point)
+Added Component: Designator=P24(Test Point)
+Added Component: Designator=P25(Test Point)
+Added Component: Designator=P26(Test Point)
+Added Component: Designator=P27(Test Point)
+Added Component: Designator=P28(Test Point)
+Added Component: Designator=P29(Test Point)
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=GND Pin=D8-1
+Added Pin To Net: NetName=LED Pin=P21-1
+Added Pin To Net: NetName=OFF Pin=P22-1
+Added Pin To Net: NetName=OFF Pin=P23-1
+Added Pin To Net: NetName=28V Pin=P24-1
+Added Pin To Net: NetName=28V Pin=P25-1
+Added Pin To Net: NetName=5V Pin=P26-1
+Added Pin To Net: NetName=10V Pin=P28-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R1-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R10-1
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=R6-2
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=R7-2
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R5-2
+Added Net: Name=NetD8_2
+Added Net: Name=SIG1
+Added Net: Name=SIG2
+Added Net: Name=SIG3
+Added Net: Name=SIG4
+Added Member To Class: ClassName=EBoxschematic Member=Component P21 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P22 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P23 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P24 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P25 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P26 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P27 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P28 Test Point
+Added Member To Class: ClassName=EBoxschematic Member=Component P29 Test Point

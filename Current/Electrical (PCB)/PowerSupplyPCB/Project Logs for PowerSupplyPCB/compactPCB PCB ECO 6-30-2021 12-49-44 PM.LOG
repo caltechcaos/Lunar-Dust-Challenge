@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R1 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R2 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R5 Old Footprint=HV RESISTOR New Footprint=LV Resistor
+Change Component Footprint: Designator=R6 Old Footprint=HV RESISTOR New Footprint=LV Resistor

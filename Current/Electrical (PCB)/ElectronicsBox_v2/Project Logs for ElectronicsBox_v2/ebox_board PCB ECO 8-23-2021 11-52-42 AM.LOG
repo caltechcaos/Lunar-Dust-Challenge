@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=28V_OUT Pin=P6-1
+Removed Member From Class: ClassName=U_power_ebox Member=P8
+Change Component Footprint: Designator=C6 Old Footprint=10uF New Footprint=10uF Ceramic
+Change Component Footprint: Designator=C7 Old Footprint=10uF New Footprint=10uF Ceramic
+Change Component Footprint: Designator=C5 Old Footprint=10UF TANTALUM New Footprint=10uF Electrolytic
+Change Component Footprint: Designator=D5 Old Footprint=LED 5V ARDUINO THRU HOLE New Footprint=LED 12V Thru Hole
+Change Component Designator: OldDesignator=P7 NewDesignator=P6
+Change Component Designator: OldDesignator=P8 NewDesignator=P7

@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=10V Pin=J1-7
+Removed Member From Class: ClassName=top_ebox_v3 Member=D7
+Removed Member From Class: ClassName=top_ebox_v3 Member=P5
+Removed Member From Class: ClassName=top_ebox_v3 Member=R8
+Change Component Designator: OldDesignator=D7 NewDesignator=D1
+Change Component Designator: OldDesignator=P2 NewDesignator=P4
+Change Component Designator: OldDesignator=P3 NewDesignator=P1
+Change Component Designator: OldDesignator=P4 NewDesignator=P3
+Change Component Designator: OldDesignator=P5 NewDesignator=P2
+Change Component Designator: OldDesignator=P6 NewDesignator=P5
+Change Component Designator: OldDesignator=P9 NewDesignator=P6
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R3
+Change Component Designator: OldDesignator=R8 NewDesignator=R1
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Added Pin To Net: NetName=10V Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J2-MH1
+Added Pin To Net: NetName=GND Pin=J2-MH2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD1_2

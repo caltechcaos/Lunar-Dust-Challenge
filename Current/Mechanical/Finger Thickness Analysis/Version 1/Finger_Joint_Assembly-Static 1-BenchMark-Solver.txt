@@ -1,0 +1,14 @@
+Solver 0.011 Linear-static-solver-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.011 Loading-and-preparing-input-data-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.377 Loading-and-preparing-input-data-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.377 Computing-load-vector-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.513 Computing-load-vector-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.695 Computing-element-stiffness-matrix-Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 0.695 Computing-element-stiffness-matrix-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Solver 47.448 Linear-static-solver-End 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+SOLVER TYPE= FFEPlus (PCG Iterative Solver)
+Number of Equations (NEQ)=38961
+Number of Nodal points (NUMNP)=13284
+Number of Pseudo nodes (NUMPS)=0
+Number of Elements (NUME)=7590
+Number of Pseudo Elements (NUMP)=5288

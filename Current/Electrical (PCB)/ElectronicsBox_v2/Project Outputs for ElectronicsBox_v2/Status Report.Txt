@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ElectronicsBox_v2.PrjPcb]
+   Generated File[ebox_board.TXT]
+   Generated File[ebox_board.LDP]
+   Generated File[ebox_board.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 5:51:21 PM On 8/26/2021

@@ -1,0 +1,372 @@
+*************************************************************
+FileName = compactPCB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 15
+      File : compactPCB.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D14
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Connector 8
+      File : compactPCB.GM14
+
+    Adding Layer      : Connector 8
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : compactPCB.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D14
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 12
+      File : compactPCB.GM12
+
+    Adding Layer      : Mechanical 12
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Connector 7
+      File : compactPCB.GM11
+
+    Adding Layer      : Connector 7
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 10
+      File : compactPCB.GM10
+
+    Adding Layer      : Mechanical 10
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Connector 5
+      File : compactPCB.GM8
+
+    Adding Layer      : Connector 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 5
+      File : compactPCB.GM5
+
+    Adding Layer      : Mechanical 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Connector 3
+      File : compactPCB.GM4
+
+    Adding Layer      : Connector 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Connector 2
+      File : compactPCB.GM3
+
+    Adding Layer      : Connector 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : compactPCB.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : compactPCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : compactPCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : HV Signal
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : compactPCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : LV
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : compactPCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : LV
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : compactPCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : compactPCB.GPT
+
+    Adding Layer      : LV
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D28
+    D29
+    D30
+    D31
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : compactPCB.GPB
+
+    Adding Layer      : HV Signal
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : HV Signal
+      File : compactPCB.GBL
+
+    Adding Layer      : HV Signal
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D28
+    D29
+    D30
+    D31
+    D33
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : HV Power
+      File : compactPCB.G2
+
+    Adding Layer      : HV Power
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D28
+    D29
+    D30
+    D31
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Power Loops
+      File : compactPCB.G1
+
+    Adding Layer      : Power Loops
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D28
+    D29
+    D30
+    D31
+    D33
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : LV
+      File : compactPCB.GTL
+
+    Adding Layer      : LV
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+

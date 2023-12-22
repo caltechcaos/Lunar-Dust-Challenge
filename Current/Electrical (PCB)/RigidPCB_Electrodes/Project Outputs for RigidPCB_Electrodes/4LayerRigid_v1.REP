@@ -1,0 +1,136 @@
+*************************************************************
+FileName = 4LayerRigid_v1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Overlay
+      File : 4LayerRigid_v1.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : 4LayerRigid_v1.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : 4LayerRigid_v1.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : 4LayerRigid_v1.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : 4LayerRigid_v1.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 4LayerRigid_v1.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : 4LayerRigid_v1.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Mid-Layer 1
+      File : 4LayerRigid_v1.G1
+
+    Adding Layer      : Mid-Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Mid-Layer 2
+      File : 4LayerRigid_v1.G2
+
+    Adding Layer      : Mid-Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+

@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=10V Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-8
+Removed Pin From Net: NetName=10V Pin=J2-5
+Removed Pin From Net: NetName=28V_OUT Pin=J2-8
+Change Component Comment : Designator=P5 Old Comment=ARDUINO New Comment=ARDUINO_PWR_SW
+Change Component Comment : Designator=P3 Old Comment=EDS New Comment=EDS_PWR_SW
+Change Component Comment : Designator=J4 Old Comment=GND New Comment=GND_IN
+Change Component Comment : Designator=J3 Old Comment=PWR New Comment=PWR_IN
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=10V Pin=J1-8
+Added Pin To Net: NetName=28V_OUT Pin=J2-1
+Added Pin To Net: NetName=10V Pin=J2-8
+Added Pin To Net: NetName=GND Pin=J2-9
+Change Net Name : Old Net Name=SIG2 New Net Name=SIG1
+Change Net Name : Old Net Name=SIG3 New Net Name=SIG2
+Change Net Name : Old Net Name=SIG4 New Net Name=SIG3
+Added Pin To Net: NetName=SIG4 Pin=J1-5
+Added Pin To Net: NetName=SIG4 Pin=J2-5
+Added Net: Name=SIG4
+Change Class Name : Old Net Name=top_ebox New Net Name=top_ebox_v3

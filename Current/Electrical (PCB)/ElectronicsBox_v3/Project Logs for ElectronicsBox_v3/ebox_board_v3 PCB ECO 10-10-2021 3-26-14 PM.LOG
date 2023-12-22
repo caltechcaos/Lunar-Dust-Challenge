@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=10V Pin=R3-1
+Removed Pin From Net: NetName=NetPS1_3 Pin=R3-2
+Change Component Footprint: Designator=R3 Old Footprint=75K New Footprint=6.65K
+Added Pin To Net: NetName=NetPS1_3 Pin=R3-1
+Added Pin To Net: NetName=10V Pin=R3-2

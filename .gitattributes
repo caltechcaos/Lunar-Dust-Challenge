@@ -1,0 +1,12 @@
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mph filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/FEA_Assembly-Static[[:space:]]2.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/FEA_Assembly-Static[[:space:]]1.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/panel_assembly_test-3point_bend.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/panel_assembly_test-cantilever.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/panel_assembly_test4.5-Static[[:space:]]1.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/FEA_Assembly-Static[[:space:]]1.ELF filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v3_tiz/FEA/segmented_panel_fea/segmented_panel_assembly_test-segmented_static_test.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v4_Eggdee/Simplified_Parts/5.16_Cantilever_Simplified_Borderless/borderless_simplified_panel_cantilever-cantilever.CWR filter=lfs diff=lfs merge=lfs -text
+Current/Mechanical/v4_Eggdee/Simplified_Parts/5.16_Compression_Simplified_Borderless/borderless_simplified_panel_compression-compression.CWR filter=lfs diff=lfs merge=lfs -text
+EASE/EASE_Assembly-Static[[:space:]]1.CWR filter=lfs diff=lfs merge=lfs -text

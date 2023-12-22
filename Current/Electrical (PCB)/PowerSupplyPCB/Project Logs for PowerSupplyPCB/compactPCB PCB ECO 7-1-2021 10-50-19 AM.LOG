@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=NetD6_1 Pin=D6-1
+Removed Pin From Net: NetName=GND Pin=D6-2
+Removed Pin From Net: NetName=NetD7_1 Pin=D7-1
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Pin From Net: NetName=NetD8_1 Pin=D8-1
+Removed Pin From Net: NetName=GND Pin=D8-2
+Removed Pin From Net: NetName=NetD9_1 Pin=D9-1
+Removed Pin From Net: NetName=GND Pin=D9-2
+Added Pin To Net: NetName=GND Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=D6-2
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=NetD7_1 Pin=D7-2
+Added Pin To Net: NetName=GND Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-2
+Added Pin To Net: NetName=GND Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=D9-2
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD6_2
+Change Net Name : Old Net Name=NetD7_1 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD8_2
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD9_2
+Added Member To Class: ClassName=benchtopsch Member=Component D6 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D7 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D8 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component D9 Zener Diode
+Added Member To Class: ClassName=benchtopsch Member=Component R1 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R2 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R3 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R4 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R5 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R6 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R7 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R8 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component R13 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R14 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R15 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R16 1.25M

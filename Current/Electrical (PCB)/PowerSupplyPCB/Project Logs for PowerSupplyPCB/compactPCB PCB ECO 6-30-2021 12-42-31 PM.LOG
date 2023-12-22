@@ -1,0 +1,330 @@
+Added Component: Designator=C1(HV Capacitor)
+Added Component: Designator=P5(Via)
+Added Component: Designator=P6(Via)
+Added Component: Designator=P7(Via)
+Added Component: Designator=P8(Via)
+Added Component: Designator=P9(Via)
+Added Component: Designator=P10(Via)
+Added Component: Designator=P11(Via)
+Added Component: Designator=P12(Via)
+Added Component: Designator=P13(Via)
+Added Component: Designator=P14(Via)
+Added Component: Designator=P15(Via)
+Added Component: Designator=P16(Via)
+Added Component: Designator=P17(Via)
+Added Component: Designator=P18(Via)
+Added Component: Designator=P19(Via)
+Added Component: Designator=P20(Via)
+Added Component: Designator=P21(Via)
+Added Component: Designator=P22(Via)
+Added Component: Designator=P23(Via)
+Added Component: Designator=P24(Via)
+Added Component: Designator=P25(Via)
+Added Component: Designator=P26(Via)
+Added Component: Designator=P27(Via)
+Added Component: Designator=P28(Via)
+Added Component: Designator=P29(Via)
+Added Component: Designator=P30(Via)
+Added Component: Designator=P31(Via)
+Added Component: Designator=P32(Via)
+Added Component: Designator=P33(Via)
+Added Component: Designator=P34(Via)
+Added Component: Designator=P35(Via)
+Added Component: Designator=P36(Via)
+Added Component: Designator=P37(Via)
+Added Component: Designator=P38(Via)
+Added Component: Designator=P39(Via)
+Added Component: Designator=P40(Via)
+Added Component: Designator=P41(Via)
+Added Component: Designator=P42(Via)
+Added Component: Designator=P43(Via)
+Added Component: Designator=P44(Via)
+Added Component: Designator=P45(Via)
+Added Component: Designator=P46(Via)
+Added Component: Designator=P47(Via)
+Added Component: Designator=P48(Via)
+Added Component: Designator=P49(Via)
+Added Component: Designator=P50(Via)
+Added Component: Designator=P51(Via)
+Added Component: Designator=P52(Via)
+Added Component: Designator=P53(Via)
+Added Component: Designator=P54(Via)
+Added Component: Designator=P55(Via)
+Added Component: Designator=P56(Via)
+Added Component: Designator=P57(Via)
+Added Component: Designator=P58(Via)
+Added Component: Designator=P59(Via)
+Added Component: Designator=P60(Via)
+Added Component: Designator=P61(Via)
+Added Component: Designator=P62(Via)
+Added Component: Designator=P63(Via)
+Added Component: Designator=P64(Via)
+Added Component: Designator=P65(Via)
+Added Component: Designator=P66(Via)
+Added Component: Designator=P67(Via)
+Added Component: Designator=P68(Via)
+Added Component: Designator=P69(Via)
+Added Component: Designator=P70(Via)
+Added Component: Designator=P71(Via)
+Added Component: Designator=P72(Via)
+Added Component: Designator=Q1(MOSFET)
+Added Component: Designator=Q2(MOSFET)
+Added Component: Designator=Q3(MOSFET)
+Added Component: Designator=Q4(MOSFET)
+Added Component: Designator=R1(HV resistor)
+Added Component: Designator=R2(HV resistor)
+Added Component: Designator=R3(HV resistor)
+Added Component: Designator=R4(HV resistor)
+Added Component: Designator=R5(HV resistor)
+Added Component: Designator=R6(HV resistor)
+Added Component: Designator=R7(HV resistor)
+Added Component: Designator=R8(HV resistor)
+Added Component: Designator=R9(HV resistor)
+Added Component: Designator=R10(HV resistor)
+Added Component: Designator=R11(HV resistor)
+Added Component: Designator=R12(HV resistor)
+Added Component: Designator=U1(Gate Driver)
+Added Component: Designator=U2(Gate Driver)
+Added Component: Designator=U3(Gate Driver)
+Added Component: Designator=U4(Gate Driver)
+Added Component: Designator=U5(Step Up Converter)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=3kV Pin=C1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=GND Pin=Q4-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Pin To Net: NetName=3kV Pin=R3-1
+Added Pin To Net: NetName=3kV Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R6-2
+Added Pin To Net: NetName=3kV Pin=R7-1
+Added Pin To Net: NetName=3kV Pin=R8-1
+Added Pin To Net: NetName=NetD1_K Pin=R9-1
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=LED Pin=R10-2
+Added Pin To Net: NetName=NetD4_A Pin=R11-1
+Added Pin To Net: NetName=PWR Pin=R11-2
+Added Pin To Net: NetName=NetD3_K Pin=R12-1
+Added Pin To Net: NetName=GND Pin=R12-2
+Added Pin To Net: NetName=5V Pin=U1-1
+Added Pin To Net: NetName=SIG1 Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetQ1_1 Pin=U1-5
+Added Pin To Net: NetName=20V Pin=U1-6
+Added Pin To Net: NetName=5V Pin=U2-1
+Added Pin To Net: NetName=SIG2 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetQ2_1 Pin=U2-5
+Added Pin To Net: NetName=20V Pin=U2-6
+Added Pin To Net: NetName=5V Pin=U3-1
+Added Pin To Net: NetName=SIG3 Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=NetQ3_1 Pin=U3-5
+Added Pin To Net: NetName=20V Pin=U3-6
+Added Pin To Net: NetName=5V Pin=U4-1
+Added Pin To Net: NetName=SIG4 Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetQ4_1 Pin=U4-5
+Added Pin To Net: NetName=20V Pin=U4-6
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=NetU5_2 Pin=U5-2
+Added Pin To Net: NetName=NetU5_3 Pin=U5-3
+Added Pin To Net: NetName=NetU5_4 Pin=U5-4
+Added Pin To Net: NetName=NetU5_5 Pin=U5-5
+Added Pin To Net: NetName=NetU5_6 Pin=U5-6
+Added Pin To Net: NetName=NetU5_7 Pin=U5-7
+Added Pin To Net: NetName=NetU5_8 Pin=U5-8
+Added Pin To Net: NetName=NetU5_9 Pin=U5-9
+Added Pin To Net: NetName=NetU5_10 Pin=U5-10
+Added Pin To Net: NetName=NetU5_11 Pin=U5-11
+Added Pin To Net: NetName=NetU5_12 Pin=U5-12
+Added Pin To Net: NetName=3kV Pin=U5-13
+Added Pin To Net: NetName=GND Pin=U5-14
+Added Pin To Net: NetName=HVSIG1 Pin=Q1-3
+Added Pin To Net: NetName=HVSIG1 Pin=R3-2
+Added Net: Name=HVSIG1
+Added Pin To Net: NetName=HVSIG2 Pin=Q2-3
+Added Pin To Net: NetName=HVSIG2 Pin=R4-2
+Added Net: Name=HVSIG2
+Added Pin To Net: NetName=HVSIG3 Pin=Q3-3
+Added Pin To Net: NetName=HVSIG3 Pin=R7-2
+Added Net: Name=HVSIG3
+Added Pin To Net: NetName=HVSIG4 Pin=Q4-3
+Added Pin To Net: NetName=HVSIG4 Pin=R8-2
+Added Net: Name=HVSIG4
+Added Net: Name=NetP5_1
+Added Net: Name=NetP6_1
+Added Net: Name=NetP7_1
+Added Net: Name=NetP8_1
+Added Net: Name=NetP9_1
+Added Net: Name=NetP10_1
+Added Net: Name=NetP11_1
+Added Net: Name=NetP12_1
+Added Net: Name=NetP13_1
+Added Net: Name=NetP14_1
+Added Net: Name=NetP15_1
+Added Net: Name=NetP16_1
+Added Net: Name=NetP17_1
+Added Net: Name=NetP18_1
+Added Net: Name=NetP19_1
+Added Net: Name=NetP20_1
+Added Net: Name=NetP21_1
+Added Net: Name=NetP22_1
+Added Net: Name=NetP23_1
+Added Net: Name=NetP24_1
+Added Net: Name=NetP25_1
+Added Net: Name=NetP26_1
+Added Net: Name=NetP27_1
+Added Net: Name=NetP28_1
+Added Net: Name=NetP29_1
+Added Net: Name=NetP30_1
+Added Net: Name=NetP31_1
+Added Net: Name=NetP32_1
+Added Net: Name=NetP33_1
+Added Net: Name=NetP34_1
+Added Net: Name=NetP35_1
+Added Net: Name=NetP36_1
+Added Net: Name=NetP37_1
+Added Net: Name=NetP38_1
+Added Net: Name=NetP39_1
+Added Net: Name=NetP40_1
+Added Net: Name=NetP41_1
+Added Net: Name=NetP42_1
+Added Net: Name=NetP43_1
+Added Net: Name=NetP44_1
+Added Net: Name=NetP45_1
+Added Net: Name=NetP46_1
+Added Net: Name=NetP47_1
+Added Net: Name=NetP48_1
+Added Net: Name=NetP49_1
+Added Net: Name=NetP50_1
+Added Net: Name=NetP51_1
+Added Net: Name=NetP52_1
+Added Net: Name=NetP53_1
+Added Net: Name=NetP54_1
+Added Net: Name=NetP55_1
+Added Net: Name=NetP56_1
+Added Net: Name=NetP57_1
+Added Net: Name=NetP58_1
+Added Net: Name=NetP59_1
+Added Net: Name=NetP60_1
+Added Net: Name=NetP61_1
+Added Net: Name=NetP62_1
+Added Net: Name=NetP63_1
+Added Net: Name=NetP64_1
+Added Net: Name=NetP65_1
+Added Net: Name=NetP66_1
+Added Net: Name=NetP67_1
+Added Net: Name=NetP68_1
+Added Net: Name=NetP69_1
+Added Net: Name=NetP70_1
+Added Net: Name=NetP71_1
+Added Net: Name=NetP72_1
+Added Member To Class: ClassName=benchtopsch Member=Component C1 27n
+Added Member To Class: ClassName=benchtopsch Member=Component P5 HVSIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P6 HVSIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P7 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P8 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P9 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P10 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P11 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P12 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P13 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P14 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P15 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P16 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P17 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P18 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P19 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P20 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P21 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P22 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P23 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P24 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P25 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P26 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P27 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P28 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P29 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P30 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P31 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P32 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P33 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P34 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P35 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P36 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P37 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P38 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P39 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P40 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P41 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P42 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P43 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P44 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P45 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P46 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P47 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P48 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P49 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P50 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P51 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P52 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P53 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P54 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P55 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P56 28V
+Added Member To Class: ClassName=benchtopsch Member=Component P57 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P58 GND
+Added Member To Class: ClassName=benchtopsch Member=Component P59 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P60 SIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P61 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P62 SIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P63 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P64 SIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P65 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P66 SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P67 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P68 20V
+Added Member To Class: ClassName=benchtopsch Member=Component P69 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P70 5V
+Added Member To Class: ClassName=benchtopsch Member=Component P71 HVSIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P72 HVSIG4
+Added Member To Class: ClassName=benchtopsch Member=Component Q1 MOSFET
+Added Member To Class: ClassName=benchtopsch Member=Component Q2 MOSFET
+Added Member To Class: ClassName=benchtopsch Member=Component Q3 MOSFET
+Added Member To Class: ClassName=benchtopsch Member=Component Q4 MOSFET
+Added Member To Class: ClassName=benchtopsch Member=Component R1 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R2 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R3 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R4 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R5 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R6 10k
+Added Member To Class: ClassName=benchtopsch Member=Component R7 1.25M
+Added Member To Class: ClassName=benchtopsch Member=Component R8 1.25M
+Added Member To Class: ClassName=U_EBoxschematic Member=Component R9 Resistor
+Added Member To Class: ClassName=U_EBoxschematic Member=Component R10 Resistor
+Added Member To Class: ClassName=U_EBoxschematic Member=Component R11 Resistor
+Added Member To Class: ClassName=U_EBoxschematic Member=Component R12 Resistor
+Added Member To Class: ClassName=benchtopsch Member=Component U1 Gate Driver
+Added Member To Class: ClassName=benchtopsch Member=Component U2 Gate Driver
+Added Member To Class: ClassName=benchtopsch Member=Component U3 Gate Driver
+Added Member To Class: ClassName=benchtopsch Member=Component U4 Gate Driver
+Added Member To Class: ClassName=benchtopsch Member=Component U5 Step Up Converter
+Added Room: Name=benchtopsch
+Added Room: Name=U_EBoxschematic

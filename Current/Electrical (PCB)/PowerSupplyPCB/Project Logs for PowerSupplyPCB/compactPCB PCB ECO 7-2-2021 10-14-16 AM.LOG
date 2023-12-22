@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=SIG1 Pin=U2-2
+Removed Pin From Net: NetName=SIG1 Pin=U3-2
+Added Component: Designator=P5(Via)
+Added Component: Designator=P6(Via)
+Added Component: Designator=P71(Via)
+Added Component: Designator=P72(Via)
+Added Component: Designator=U4(Gate Driver)
+Added Pin To Net: NetName=5V Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Pin To Net: NetName=NetR8_2 Pin=U4-5
+Added Pin To Net: NetName=20V Pin=U4-6
+Added Pin To Net: NetName=SIG2 Pin=U2-2
+Added Net: Name=SIG2
+Added Pin To Net: NetName=SIG3 Pin=U3-2
+Added Net: Name=SIG3
+Added Pin To Net: NetName=SIG4 Pin=U4-2
+Added Net: Name=SIG4
+Added Member To Class: ClassName=benchtopsch Member=Component P5 HVSIG2
+Added Member To Class: ClassName=benchtopsch Member=Component P6 HVSIG1
+Added Member To Class: ClassName=benchtopsch Member=Component P71 HVSIG3
+Added Member To Class: ClassName=benchtopsch Member=Component P72 HVSIG4
+Added Member To Class: ClassName=benchtopsch Member=Component U4 Gate Driver
